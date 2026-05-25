@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    color: black;
+    background-image: url(images/fond.jpg.jpeg); /* Image de fond */
+    background-size: cover; /* cover est mieux pour que le fond s'adapte sans se répéter */
+    background-position: center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-image: url(images/haut2.jpg.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 90%; 
+    max-width: 400px; /* Évite qu'il soit trop large sur PC */
+    height: 120px;
+    margin: 10px auto; 
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.niveau {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    font-size: 18px;
+    color: black;
+}
+
+.score {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.jeu {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    border: none;
+    width: 90%;
+    max-width: 400px;
+}
+
+.cartes1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    gap: 8px;
+    font-size: 28px;
+    position: relative;
+}
+
+.carte {
+    width: 75px;
+    height: 112px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d; 
+    perspective: 1000px; 
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carte.active {
+    transform: rotateY(180deg);
+}
+
+.trouve {
+    pointer-events: none; 
+    border: 2px solid limegreen;
+    box-shadow: 0 0 10px limegreen;
+}
+
+.masquer {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(images/caché.jpg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.numero {
+    background: white;
+    transform: rotateY(180deg); 
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.masquer,
+.numero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden; 
+    border-radius: 10px;
+}
+
+.cartes2,
+.cartes3 {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
+    gap: 8px;
+    font-size: 28px;
+    position: relative; 
+}
+
+button {
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-image: url(images/haut2.jpg.jpeg);
+    background-size: cover; 
+    background-position: center;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(249, 159, 159);
+    transform: translateY(-3px);
+}
+
+.carte.shak {
+    animation: shake 0.4s; 
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
