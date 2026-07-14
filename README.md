@@ -1,48 +1,24 @@
-# 🃏 [Nom de ton Jeu de Carte]
+J'ai déployé mon premier projet web. Voici ce que j'ai appris. 🚀 
 
-> Un jeu de cartes mémoire interactif et captivant, développé en collaboration et jouable directement sur navigateur.
+Après plusieurs semaines de travail intense et d'apprentissage partagé, mon équipe et moi venons de mettre en ligne notre tout premier projet web : un jeu de cartes interactif, entièrement jouable sur Itch.io.
 
-[![Play on Itch.io](https://img.shields.io/badge/Play%20on-Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white)][ItchLink]
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)][LinkedInLink]
+Lancer un produit en production pour la première fois, c'est très différent d'écrire du code en local.
 
----
+Avec Benoit MAYINGA et Fallou CISSE, nous avons tout conçu et codé ensemble de la structure logique jusqu'aux mécanismes du jeu. Chaque ligne de code a été pensée et débattue collectivement.
 
-## 🎮 Présentation du Projet
+Les vrais défis techniques que j'ai résolus :
 
-**[Nom de ton Jeu]** est un jeu de cartes interactif (type Memory) moderne. Ce projet a été pensé pour offrir une expérience utilisateur fluide, colorée et responsive, tout en consolidant des bases solides en développement frontend.
+▸ Responsive Design
+Adapter une interface de jeu sur tous les écrans sans casser la logique — ça m'a forcé à repenser toute l'architecture CSS, pas juste ajouter des media queries.
 
-Développé en équipe, ce projet a franchi toutes les étapes, de la conception à la publication, jusqu'à son déploiement officiel sur **Itch.io** !
+▸ Mise en production
+Héberger sur Itch.io avec ses contraintes spécifiques m'a appris ce que les tutoriels ne disent pas : le déploiement, ça se prépare dès la conception.
 
-### ✨ Fonctionnalités clés
-* **Gameplay Intuitif :** Retournez les cartes, trouvez les paires et battez votre propre score.
-* **Design Responsive & Moderne :** Une interface soignée avec des animations fluides pour le retournement des cartes.
-* **Responsive Design :** Jouable aussi bien sur ordinateur que sur mobile et tablette.
-* **Effets Sonores & Visuels :** (Optionnel) Des feedbacks visuels dynamiques pour une immersion totale.
+Ce que je retiens :
+Le code qui tourne en local n'est qu'une étape. Le vrai apprentissage commence quand des utilisateurs réels l'utilisent sur de vrais appareils.
 
----
+Un immense bravo à toute l'équipe, c'est une grande fierté de voir notre code commun se transformer en un produit fini, accessible à tous sur le web. 🎉 
 
-## 🛠️ Technologies Utilisées
-
-Pour donner vie à ce projet, nous avons utilisé un stack technologique moderne axé sur l'intégration et l'interactivité :
-
-| Technologie | Rôle / Utilisation |
-| :--- | :--- |
-| **HTML5** | Structure sémantique du jeu et des cartes. |
-| **CSS3 / Bootstrap** | Layout responsive, design des cartes et animations de retournement (3D flips). |
-| **JavaScript (ES6)** | Logique du jeu, gestion du tableau, du score, du chronomètre et de l'état des cartes. |
-| **Itch.io** | Plateforme d'hébergement et de distribution du jeu. |
-
----
-
-## 🚀 Comment Jouer ?
-
-### En ligne (Recommandé)
-Vous pouvez y jouer instantanément sans aucune installation :
-👉 **[Cliquez ici pour jouer sur Itch.io][ItchLink]**
-
-### En local (Développement)
-Si vous souhaitez cloner le projet et le lancer sur votre machine :
-
-1. **Clonez le dépôt :**
-   ```bash
-   git clone [https://github.com/](https://github.com/)[TonPseudo]/[Nom-Du-Repo].git
+🎮 Jouer sur Itch.io :https://lnkd.in/drHXWH8R
+🐛 Inspecter le code sur GitHub : https://lnkd.in/dGfxNKXZ
+J'attends vos retours — bugs compris. 👇
