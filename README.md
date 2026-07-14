@@ -19,7 +19,7 @@ Ce projet est le fruit d'une collaboration intense et passionnée. Nous avons to
 
 * **Benoit MAYINGA**
 * **Fallou CISSE**
-* **[Royale Pascale MOUNTOU-MOUNKENTO]**
+* **Royale Pascale MOUNTOU-MOUNKENTO**
 
 Chaque ligne de code a été pensée, débattue et validée collectivement pour garantir la meilleure expérience possible.
 
