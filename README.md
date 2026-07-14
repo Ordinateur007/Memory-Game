@@ -54,3 +54,4 @@ Si vous trouvez des **bugs** 🐛 ou si vous avez des pistes d'amélioration pou
 2. Nous laisser un commentaire sur notre page Itch.io.
 
 Merci pour votre visite et bon jeu ! 🎉
+
