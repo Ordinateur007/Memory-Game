@@ -19,6 +19,6 @@ Le code qui tourne en local n'est qu'une étape. Le vrai apprentissage commence 
 
 Un immense bravo à toute l'équipe, c'est une grande fierté de voir notre code commun se transformer en un produit fini, accessible à tous sur le web. 🎉 
 
-🎮 Jouer sur Itch.io :https://lnkd.in/drHXWH8R
-🐛 Inspecter le code sur GitHub : https://lnkd.in/dGfxNKXZ
+🎮 Jouer sur Itch.io :https://lili-mpg.itch.io/jeux-de-cartes-de-memoire
+🐛 Inspecter le code sur GitHub :https://github.com/Ordinateur007/Memory-Game
 J'attends vos retours — bugs compris. 👇
